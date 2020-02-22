@@ -1,0 +1,10 @@
+<div class="input-append col-md-12 col-sm-12 primary "> 
+<label class="label">Tipo de usuario</label>
+<select name="tipo" style="width:90%; cursor:pointer;" title="Seleccione el tipo de usuario" required="">
+<option value="">Tipo de usuario...</option>
+<option value="4">Cliente</option>
+<option value="3" selected="">Colaborador</option>
+<option value="2">Administrador</option>
+</select>
+<span class="add-on"><span class="arrow"></span><i class="fa fa-shield"></i></span>
+</div>
