@@ -3,7 +3,7 @@ RewriteEngine on
 ErrorDocument 403 /tareas/403.php
 ErrorDocument 404 /tareas/404.php
 ErrorDocument 500 /tareas/500.php
- 
+
 #Menu Superior
 RewriteRule ^MiPerfil$ perfil.php
 RewriteRule ^MiPerfil/(.+)$ perfil.php?id=$1
@@ -16,7 +16,7 @@ RewriteRule ^NuevaTarea$ nueva_tarea.php
 
 #Menu Vertical
 RewriteRule ^Inicio$ cpanel.php
-RewriteRule ^Tarea/(.+)$ view_tarea.php?id=$1
+RewriteRule ^Tarea/(.+)$ editar_tarea.php?id=$1
 RewriteRule ^Buscador$ buscador.php?q=$1
 RewriteRule ^EquipoTrabajo$ equipotrabajo.php
 

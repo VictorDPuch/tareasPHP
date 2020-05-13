@@ -3455,8 +3455,13 @@ function fecha_calendar($fecha){
 			$tags .= '" data-placement="top">';
 			$tags .= strtoupper(substr($nombre,0,1));
 			$tags .= strtoupper(substr($apellidos,0,1));
-			$tags .= ', </label>';
+			$tags .= '&nbsp;</label>';
 
+				$tags2 =	'<label  style="display:none" class="tip" data-toggle="tooltip" title="';
+				$tags2 .= '" data-placement="top">';
+				$tags2.=$nombre." ".$apellidos;
+				$tags2 .= '&nbsp;</label>';
 			echo $tags;
+			echo $tags2;
 	}
 ?>
